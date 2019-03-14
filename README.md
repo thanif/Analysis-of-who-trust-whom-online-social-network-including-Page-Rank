@@ -1,4 +1,4 @@
-# Analysis-of-who-trust-whom-online-social-network-using-Page-Rank
+# Analysis-of-who-trust-whom-online-social-network-using-Page-Rank-and-other-components
 Exploring the structure of a directed social network, namely the Epinions
 Social Network. This is a who-trust-whom online social network of a general
 consumer review site Epinions.com. Members of the site can decide whether to ''trust'' each other.
