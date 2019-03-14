@@ -16,8 +16,7 @@ We will try to determine whether bowtie structure exists in Epinions network or 
 will compute the sizes of each region in the Epinions network. How many nodes are in the SCC,
 IN, OUT, TENDRILS+TUBES (referring to TENDRILS and TUBES combined), and
 DISCONNECTED regions? Write a python program to calculate the size of each of the above
-components in Epinions network(both number of nodes and fraction of total nodes) (Hint: You
-may want to use the SNAP functions GetMxWcc and GetMxScc along with BFS.)
+components in Epinions network(both number of nodes and fraction of total nodes)
 Broder et al. found in their paper that given a pair of randomly chosen start and finish webpages,
 one can get from the start page to the finish page by traversing links only approximately 25% of
 the time. For the Epinions network, what is the probability that a path exists between two nodes
