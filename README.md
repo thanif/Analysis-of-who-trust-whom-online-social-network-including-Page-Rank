@@ -1,6 +1,6 @@
 # Analysis-of-who-trust-whom-online-social-network-using-Page-Rank
-we explore the structure of a directed social network, namely the Epinions
-Social Network (file attached). This is a who-trust-whom online social network of a general
+Exploring the structure of a directed social network, namely the Epinions
+Social Network. This is a who-trust-whom online social network of a general
 consumer review site Epinions.com. Members of the site can decide whether to ''trust'' each other.
 All the trust relationships interact and form the Web of Trust which is then combined with review
 ratings to determine which reviews are shown to the user.
@@ -21,16 +21,7 @@ may want to use the SNAP functions GetMxWcc and GetMxScc along with BFS.)
 Broder et al. found in their paper that given a pair of randomly chosen start and finish webpages,
 one can get from the start page to the finish page by traversing links only approximately 25% of
 the time. For the Epinions network, what is the probability that a path exists between two nodes
-chosen uniformly from the graph? (Hint: One way you can approach this question is to first sample
-many node pairs at random and then report the fraction of times pairs were reachable. You may
-find the SNAP function GetShortPath useful here.) Start with 10 pairs and then double the node
-pairs. Plot a graph that has number of pairs on the x-axis and fraction of reachable pairs on the y-
-axis. As the number of node pairs sampled grows larger, what would you expect the fraction of
-reachable pairs to converge to?
+chosen uniformly from the graph?
 # Problem 2
-As you know that page rank algorithm can be used to determine the ranks/importance of nodes in
-the network. Apply page rank algorithm to the Epinions network. Do not use GetPageRank
-function of SNAP to compute the results. Device your own function for this problem. Take value
-of β (teleportation probability), and ε (termination criteria) from the user to compute your results.
-Use google algorithm’s approach to solve dead end problem (this means do not modify the matrix
-M and uniformly divide all the leaked page rank to each node in the network).
+Page rank algorithm can be used to determine the ranks/importance of nodes in
+the network. Apply page rank algorithm to the Epinions network. 
